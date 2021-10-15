@@ -60,6 +60,24 @@ aside
   font-family: sans-serif;
   
 }
+.news
+{
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+.news:hover:not(.active) 
+{
+  background-color: darkblue;
+}
 .photo
 {
   text-align: center;
@@ -102,7 +120,7 @@ aside
     <ul>
       <li><a class="home" href="#HOME" >HOME</a></li>
       <li><a href="#PROFILE" >PROFILE</a></li>
-      <li><a href="#BERITA">BERITA</a></li>
+      <li><a href="#NEWS">NEWS</a></li>
       <li><a href="#ABOUT">ABOUT</a></li>
       <li><a href="#CONTACT">CONTACT US</a></li>
     </ul>
@@ -128,6 +146,9 @@ aside
       <td>Tempat,Tgl Lahir <td> : </td> <td>Jakarta,28 Januari 2001</td>
     </tr>
     <tr>
+      <td>Kewarganegaraan</td><td> : </td> <td> Indonesia</td>
+    </tr>
+    <tr>
       <td> Status </td> <td> : </td> <td> Mahasiswa </td> 
     </tr>
     <tr>
@@ -147,7 +168,9 @@ aside
 </main>
 
  <aside>
-      <h1 id="BERITA">BERITA</h1>
+      <div class="news">
+      <h1 id="NEWS">NEWS</h1>
+      </div>
 
       <h3> EDUCATION </h3>
       <img src="https://asset.kompas.com/crops/CSMYSLAEw8v84wxRJZt1NCLpMuI=/189x148:894x618/750x500/data/photo/2021/10/13/61667ec023ff5.png" width="100" border="2"><br>
